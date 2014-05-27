@@ -1,20 +1,17 @@
 import sys
 import mappings
 
-try:
-    if not sys.argv[1]:
-        print("Requires input string.")
-        exit(1)
-except Exception, e:
-    print(e)
+
+if (len(sys.argv) < 2):
+    print("Requires input string as first argument.")
     exit(1)
 
 
 inString = unicode(sys.argv[1])
-print inString, len(inString)
+print 'IN ', inString, len(inString)
 
 for normalText, specialText in mappings.unicodeHashMap.iteritems():
     if normalText in inString:
         inString = inString.replace(normalText, specialText)
 
-print "->", inString, len(inString)
+print "OUT", inString, len(inString)
