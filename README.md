@@ -6,7 +6,7 @@ Shorten strings by replacing combinations of letters with unicode characters tha
     IN  (32): I'm going to aerobatics tomorrow
     OUT (30): I'm going to ærobatѤs tomorrow
 
-_Note:_ does not frequently help due to the relative infrequency of these specific combinations of characters.
+_Note:_ does not generally help due to the relative infrequency of these specific combinations of characters.
 
 ## Supported Replacements:
 - ae -> \u00E6
