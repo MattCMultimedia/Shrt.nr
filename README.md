@@ -3,8 +3,8 @@
 Shorten strings by replacing combinations of letters with unicode characters that look similar. Great for maximizing your Twitter content when you need those extra 1 or two characters.
 
     python shrtnr.py "I'm going to aerobatics tomorrow"
-    IN  (32): I'm going to aerobatics tomorrow
-    OUT (30): I'm going to ærobatѤs tomorrow
+    IN  (32): I'm going to aerobics tomorrow
+    OUT (30): I'm going to ærobѤs tomorrow
 
 _Note:_ does not generally help due to the relative infrequency of these specific combinations of characters.
 
