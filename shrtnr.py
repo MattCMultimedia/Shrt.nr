@@ -8,10 +8,10 @@ if (len(sys.argv) < 2):
 
 
 inString = unicode(sys.argv[1])
-print 'IN ', inString, len(inString)
+print "IN  (%s): %s" % (len(inString), inString)
 
 for normalText, specialText in mappings.unicodeHashMap.iteritems():
     if normalText in inString:
         inString = inString.replace(normalText, specialText)
 
-print "OUT", inString, len(inString)
+print "OUT (%s): %s" % (len(inString), inString)
