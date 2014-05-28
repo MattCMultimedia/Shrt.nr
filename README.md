@@ -2,7 +2,7 @@
 
 Shorten strings by replacing combinations of letters with unicode characters that look similar. Great for maximizing your Twitter content when you need those extra 1 or two characters.
 
-    python shrtnr.py "I'm going to aerobatics tomorrow"
+    python shrtnr.py "I'm going to aerobics tomorrow"
     IN  (32): I'm going to aerobics tomorrow
     OUT (30): I'm going to ærobѤs tomorrow
 
